@@ -1,0 +1,58 @@
+/* ✅ Background Image Styling for Registration Page */
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/1.png') center/cover no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+/* ✅ Registration Form Container */
+.container {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+/* ✅ Input Fields */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* ✅ Placeholder Styling */
+input::placeholder {
+    color: #666;
+}
+
+/* ✅ Button Styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: darkred;
+}
